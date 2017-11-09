@@ -1,0 +1,9 @@
+
+
+name: preftech
+main: cpp.cpp
+
+
+dep:
+  - name: mkn.kul
+    version: master

@@ -1,0 +1,7 @@
+
+
+name: cost
+main: cpp.cpp
+
+dep:
+  - name: mkn.kul
