@@ -1,0 +1,31 @@
+
+
+name: lol
+main: main.cpp
+dep: mkn.kul
+
+
+# property:
+#   H5_MPI_INC: /usr/include/hdf5/mpich
+#   H5_MPI_LIB: hdf5_mpich
+#   MPI_PATH: /home/philix/lib/mpich
+#   PHARE_ROOT: /home/philix/git/phare/master
+
+# dep:
+#   mkn.kul
+#   hpc.highfive(https://github.com/PhilipDeegan/hpc.highfive)
+
+# inc:
+#     ${H5_MPI_INC}
+#     ${PHARE_ROOT}/src
+#     ${PHARE_ROOT}/subprojects
+
+# path: ${MPI_PATH}/lib
+# lib: mpi ${H5_MPI_LIB}
+# arg: -DH5_HAVE_PARALLEL
+
+
+
+
+# dep: llnl.raja#develop
+# arg: -ftree-vectorize -fopt-info-vec-missed -fopt-info-vec -fopt-info-inline -fopt-info-inline-optimized -fopt-info-vec-optimized
